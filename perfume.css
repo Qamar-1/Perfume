@@ -1,0 +1,194 @@
+body{
+    box-sizing: border-box;
+    height: fit-content;
+    border-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaAhenQ5Al5BbOednmFZawQ04Kd_sEF0kwGQ&usqp=CAU);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+
+   
+    
+}
+.product{
+   margin-top: 0;
+    display: flex;
+    border: 2px solid black;
+    height: 100%;
+    width: fit-content;
+    margin-top: 40px;
+    display: flex;
+    margin-top: 0;
+   
+    font-size: 4vw;
+    
+    
+  
+  
+   
+   
+}
+.product img{
+    height:100%;
+    width: calc(40%vh);
+   
+    
+   
+}
+.white{
+    height: 100%;
+    background-color: white;
+    margin-top: 0px;
+    width: calc(60%vh);
+    
+    
+    
+  
+
+}
+.paragraphs{
+    margin-top: 70px;
+
+}
+
+
+.perfume{
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    height: 100%;
+}
+.gab{
+    font-size: 30px;
+    line-height: 0.9;
+    padding-bottom: 10px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.description{
+    color: blueviolet;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    line-height: normal;
+}
+.description p{
+    margin: 3px;
+}
+.pricing{
+    font-size: 40px;
+
+}
+.cross{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 30px;
+}
+button{
+    height: 40px;
+    background-color: greenyellow;
+    border-radius: 7px;
+    border-color: gray;
+    margin-left: 30px;
+    margin-top: -18px
+  
+}
+@media  (max-width:600px) {
+    body{
+        box-sizing: border-box;
+        height: fit-content;
+        border-color: black;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaAhenQ5Al5BbOednmFZawQ04Kd_sEF0kwGQ&usqp=CAU);
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .product{
+            margin-top: 0;
+             display: flex;
+             border: 2px solid black;
+             height: 100%;
+             width: fit-content;
+             margin-top: 40px;
+             display: grid;
+             margin-top: 0;
+             text-align: center;
+             
+           
+           
+            
+            
+         }
+         .product img{
+             height:100%;
+             width: calc(40%vh);
+             padding-bottom: 3px;
+            
+             
+            
+         }
+         .white{
+             height: 99%;
+             background-color: white;
+             margin-top: 0px;
+             width: calc(60%vh);
+             padding-top: 3px;
+             
+             
+           
+         
+         }
+         .paragraphs{
+             margin-top: 70px;
+         
+         }
+         
+         
+         .perfume{
+             font-size: 24px;
+             font-family:'Times New Roman', Times, serif;
+             font-style: italic;
+             height: 100%;
+             margin-top: -100px;
+         }
+         .gab{
+             font-size: 30px;
+             line-height: 0.9;
+             padding-bottom: 10px;
+             font-family:  'Arial Narrow', Arial, sans-serif;
+         }
+         .description{
+             color: blueviolet;
+             font-size: large;
+             font-style: italic;
+             font-weight: bold;
+             line-height: normal;
+         }
+         .description p{
+             margin: 3px;
+         }
+         .pricing{
+             font-size: 40px;
+         
+         }
+         .cross{
+             text-decoration: line-through;
+             color: gray;
+             font-size: 30px;
+         }
+         button{
+             height: 40px;
+             background-color: greenyellow;
+             border-radius: 7px;
+             border-color: gray;
+             margin-left: 30px;
+             margin-top: -18px
+           
+         }
+       
+    
+}
